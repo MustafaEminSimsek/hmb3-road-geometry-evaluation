@@ -1,0 +1,83 @@
+{
+  "model": "SegFormer-B0 Cityscapes",
+  "model_sha256": "ffd5ceb33f7c7a969bc69d3ad7ab06017de15c42085e7ed10be8ed8d23b10fec",
+  "inference_provider": "DirectML",
+  "model_input_width_height": [
+    320,
+    256
+  ],
+  "mask_width_height": [
+    512,
+    384
+  ],
+  "boundary_band_px": 8,
+  "road_iou_threshold": 0.9,
+  "boundary_iou_threshold": 0.4,
+  "pair_count": 5614,
+  "counts": {
+    "uygun": 2279,
+    "uygunsuz": 3327,
+    "inceleme": 8
+  },
+  "reason_counts": {
+    "iki_esik_gecti": 2279,
+    "kenar": 2387,
+    "alan_ve_kenar": 934,
+    "eslesme_veya_maske": 8,
+    "alan": 6
+  },
+  "boundary_threshold_comparison": {
+    "0.4": {
+      "hmb3": {
+        "uygun": 2279,
+        "uygunsuz": 3327,
+        "inceleme": 8
+      },
+      "pilot": {
+        "uygun": 40,
+        "uygunsuz": 61,
+        "inceleme": 0
+      },
+      "jpeg60_controls": {
+        "uygun": 22,
+        "uygunsuz": 2,
+        "inceleme": 0
+      }
+    },
+    "0.5": {
+      "hmb3": {
+        "uygun": 1068,
+        "uygunsuz": 4538,
+        "inceleme": 8
+      },
+      "pilot": {
+        "uygun": 24,
+        "uygunsuz": 77,
+        "inceleme": 0
+      },
+      "jpeg60_controls": {
+        "uygun": 18,
+        "uygunsuz": 6,
+        "inceleme": 0
+      }
+    },
+    "0.6": {
+      "hmb3": {
+        "uygun": 425,
+        "uygunsuz": 5181,
+        "inceleme": 8
+      },
+      "pilot": {
+        "uygun": 4,
+        "uygunsuz": 97,
+        "inceleme": 0
+      },
+      "jpeg60_controls": {
+        "uygun": 14,
+        "uygunsuz": 10,
+        "inceleme": 0
+      }
+    }
+  },
+  "control_count": 24
+}

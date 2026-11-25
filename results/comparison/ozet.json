@@ -1,0 +1,105 @@
+{
+  "pair_count": 5614,
+  "road_threshold": 0.9,
+  "boundary_threshold": 0.4,
+  "instructpix2pix": {
+    "counts": {
+      "uygun": 2279,
+      "uygunsuz": 3327,
+      "inceleme": 8
+    },
+    "rate_of_all": {
+      "uygun": 0.40594941218382613,
+      "uygunsuz": 0.5926255789098682,
+      "inceleme": 0.0014250089063056644
+    },
+    "reasons": {
+      "iki_esik_gecti": 2279,
+      "kenar": 2387,
+      "alan_ve_kenar": 934,
+      "eslesme_veya_maske": 8,
+      "alan": 6
+    },
+    "road_only_pass_among_evaluable": 4666,
+    "road_only_evaluable_count": 5606,
+    "alignment_below_035": 0,
+    "metrics_all": {
+      "road_iou": {
+        "count": 5614,
+        "median": 0.9532815348713537
+      },
+      "boundary_iou": {
+        "count": 5614,
+        "median": 0.3638306959180004
+      },
+      "alignment": {
+        "count": 5614,
+        "median": 0.9684612452983856
+      }
+    }
+  },
+  "lucyrestyle": {
+    "counts": {
+      "uygun": 47,
+      "uygunsuz": 3016,
+      "inceleme": 2551
+    },
+    "rate_of_all": {
+      "uygun": 0.008371927324545779,
+      "uygunsuz": 0.5372283576772355,
+      "inceleme": 0.45439971499821874
+    },
+    "reasons": {
+      "alan_ve_kenar": 2188,
+      "kenar": 828,
+      "eslesme_veya_maske": 2551,
+      "iki_esik_gecti": 47
+    },
+    "road_only_pass_among_evaluable": 875,
+    "road_only_evaluable_count": 3063,
+    "alignment_below_035": 2538,
+    "metrics_all": {
+      "road_iou": {
+        "count": 5614,
+        "median": 0.8396410390586809
+      },
+      "boundary_iou": {
+        "count": 5614,
+        "median": 0.12400279074957474
+      },
+      "alignment": {
+        "count": 5614,
+        "median": 0.3696478456258774
+      }
+    }
+  },
+  "matrix_ip2p_then_lucy": {
+    "uygun": {
+      "uygun": 37,
+      "uygunsuz": 1180,
+      "inceleme": 1062
+    },
+    "uygunsuz": {
+      "uygun": 10,
+      "uygunsuz": 1830,
+      "inceleme": 1487
+    },
+    "inceleme": {
+      "uygun": 0,
+      "uygunsuz": 6,
+      "inceleme": 2
+    }
+  },
+  "common_evaluable": {
+    "count": 3057,
+    "ip2p_pass": 1217,
+    "lucy_pass": 47,
+    "ip2p_road_only_pass": 2442,
+    "lucy_road_only_pass": 875,
+    "paired_median_lucy_minus_ip2p": {
+      "road_iou": -0.09160402781985189,
+      "boundary_iou": -0.2090033742953657,
+      "alignment": -0.4715847373008728
+    }
+  }
+}

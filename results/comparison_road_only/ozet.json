@@ -1,0 +1,135 @@
+{
+  "pair_count": 5614,
+  "road_threshold": 0.9,
+  "boundary_threshold": null,
+  "decision_rule": "road_iou_only",
+  "instructpix2pix": {
+    "counts": {
+      "uygun": 4666,
+      "uygunsuz": 948,
+      "inceleme": 0
+    },
+    "rate_of_all": {
+      "uygun": 0.8311364446027788,
+      "uygunsuz": 0.16886355539722123,
+      "inceleme": 0.0
+    },
+    "reasons": {
+      "road_iou_esigi_gecti": 4666,
+      "road_iou_esik_alti": 948
+    },
+    "road_only_pass_among_evaluable": 4666,
+    "road_only_evaluable_count": 5614,
+    "alignment_below_035": 0,
+    "metrics_all": {
+      "road_iou": {
+        "count": 5614,
+        "median": 0.9532815348713537
+      },
+      "boundary_iou": {
+        "count": 5614,
+        "median": 0.3638306959180004
+      },
+      "alignment": {
+        "count": 5614,
+        "median": 0.9684612452983856
+      }
+    },
+    "previous_to_road_only": {
+      "uygun": {
+        "uygun": 2279,
+        "uygunsuz": 0,
+        "inceleme": 0
+      },
+      "uygunsuz": {
+        "uygun": 2387,
+        "uygunsuz": 940,
+        "inceleme": 0
+      },
+      "inceleme": {
+        "uygun": 0,
+        "uygunsuz": 8,
+        "inceleme": 0
+      }
+    }
+  },
+  "lucyrestyle": {
+    "counts": {
+      "uygun": 1393,
+      "uygunsuz": 4221,
+      "inceleme": 0
+    },
+    "rate_of_all": {
+      "uygun": 0.24812967581047382,
+      "uygunsuz": 0.7518703241895262,
+      "inceleme": 0.0
+    },
+    "reasons": {
+      "road_iou_esik_alti": 4221,
+      "road_iou_esigi_gecti": 1393
+    },
+    "road_only_pass_among_evaluable": 1393,
+    "road_only_evaluable_count": 5614,
+    "alignment_below_035": 2538,
+    "metrics_all": {
+      "road_iou": {
+        "count": 5614,
+        "median": 0.8396410390586809
+      },
+      "boundary_iou": {
+        "count": 5614,
+        "median": 0.12400279074957474
+      },
+      "alignment": {
+        "count": 5614,
+        "median": 0.3696478456258774
+      }
+    },
+    "previous_to_road_only": {
+      "uygun": {
+        "uygun": 47,
+        "uygunsuz": 0,
+        "inceleme": 0
+      },
+      "uygunsuz": {
+        "uygun": 828,
+        "uygunsuz": 2188,
+        "inceleme": 0
+      },
+      "inceleme": {
+        "uygun": 518,
+        "uygunsuz": 2033,
+        "inceleme": 0
+      }
+    }
+  },
+  "matrix_ip2p_then_lucy": {
+    "uygun": {
+      "uygun": 1320,
+      "uygunsuz": 3346,
+      "inceleme": 0
+    },
+    "uygunsuz": {
+      "uygun": 73,
+      "uygunsuz": 875,
+      "inceleme": 0
+    },
+    "inceleme": {
+      "uygun": 0,
+      "uygunsuz": 0,
+      "inceleme": 0
+    }
+  },
+  "common_evaluable": {
+    "count": 5614,
+    "ip2p_pass": 4666,
+    "lucy_pass": 1393,
+    "ip2p_road_only_pass": 4666,
+    "lucy_road_only_pass": 1393,
+    "paired_median_lucy_minus_ip2p": {
+      "road_iou": -0.09760805574337922,
+      "boundary_iou": -0.22229019287238627,
+      "alignment": -0.5903752595186234
+    }
+  }
+}

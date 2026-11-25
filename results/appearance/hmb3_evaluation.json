@@ -1,0 +1,21 @@
+{
+  "normal_max": 0.0023150828907952067,
+  "edited_min": 0.0034726243361928102,
+  "min_alignment": 0.35,
+  "matrix_actual_then_predicted": {
+    "normal": {
+      "normal": 3870,
+      "edited": 0,
+      "belirsiz": 58
+    },
+    "edited": {
+      "normal": 0,
+      "edited": 1964,
+      "belirsiz": 0
+    }
+  },
+  "edited_precision": 1.0,
+  "edited_recall": 1.0,
+  "edited_f1": 1.0,
+  "uncertain_rate": 0.009843856076035303
+}
